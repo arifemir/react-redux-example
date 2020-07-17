@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react'
+import {Container} from "reactstrap";
+import DashBoard from "./DashBoard";
+import Navi from "../navi/Navi";
 
-function App() {
-  return (
-    <div>
-     
-    </div>
-  );
+
+class App extends Component {
+  render() {
+    return (
+      <Container>
+        <Navi/>
+        <DashBoard/>
+      </Container>
+    )
+  }
 }
 
-export default App;
+export default App
