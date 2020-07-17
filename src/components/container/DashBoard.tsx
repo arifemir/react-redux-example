@@ -9,7 +9,7 @@ class DashBoard extends Component {
       <div>
         <Row>
           <Col xs='3'>
-            <CategoryList/>
+            <CategoryList currentCategory=''/>
           </Col>
           <Col xs='9'>
             <ProductList/>
