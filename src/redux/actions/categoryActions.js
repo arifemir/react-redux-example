@@ -1,6 +1,6 @@
 import * as actionTypes from './actionTypes'
 
-export function changeCategory(category: String) {
+export function changeCategory(category) {
   return {type:actionTypes.CHANGE_CATEGORY, payload:category}
 }
 

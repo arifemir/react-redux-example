@@ -2,11 +2,8 @@ import React, {Component} from 'react'
 import {connect} from 'react-redux';
 
 
-type Props = {
-  currentCategory:any
-}
 
-class CategoryList extends Component <Props> {
+class CategoryList extends Component {
 
   render() {
     return <div>
@@ -16,7 +13,7 @@ class CategoryList extends Component <Props> {
   }
 }
 
-function mapStateToProps(state:any) : any {
+function mapStateToProps(state) {
   return {
     currentCategory:state.changeCategoryReducer
   }
